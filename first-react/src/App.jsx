@@ -12,12 +12,14 @@ import React from 'react'
 // import ComplexComment from './components/ComplexComment'
 // import FancyBox from './components/FancyBox'
 // import MoviesList from './components/MoviesList'
-import BigCats from './components/BigCats'
+// import BigCats from './components/BigCats'
 // import MoodChanger from './components/MoodChanger'
 // import Emoji from './components/Emoji'
 // import BirthdayTranslator from './components/BirthdayTranslator'
 // import Weather from './components/Weather'
 // import LoginForm from './components/LoginForm'
+// import ExplodingBomb from './components/ExplodingBomb'
+import Calculator from './components/Calculator'
 
 
 
@@ -166,13 +168,14 @@ function App() {
     date={comment.date}
     text={comment.text}/> */}
     {/* <MoviesList/> */}
-    <BigCats/>
+    {/* <BigCats/> */}
     {/* <MoodChanger/> */}
     {/* <Emoji/> */}
     {/* <BirthdayTranslator/> */}
     {/* <Weather/> */}
     {/* <LoginForm /> */}
-    
+    {/* <ExplodingBomb/> */}
+    <Calculator/>
     </div>
   )
 }
