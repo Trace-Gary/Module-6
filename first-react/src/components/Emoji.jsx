@@ -16,11 +16,6 @@ function Emoji() {
         </div>
     )
 
-
-
-
-
-
 }
 
 
